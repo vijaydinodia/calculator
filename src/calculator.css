@@ -1,0 +1,28 @@
+.calculatar-container {
+  width: 420px;
+  background: grey;
+  text-align: center;
+  padding: 10px;
+  margin-top: 55px;
+}
+ 
+.calculatar-container input {
+  width: 90%;
+  padding: 11px;
+  border: none;
+  font-size: 20px;
+  margin-top: 11px;
+  border-radius: 3px;
+}
+
+.calculatar-container button{
+    width: 90px;
+    padding: 7px;
+    margin: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+}
+
