@@ -1,10 +1,10 @@
 import React from "react";
 
-import Calculater from "./Calculater";
+import Calculator from "./Calculator";
 function App() {
   return (
     <>
-      <Calculater />
+      <Calculator />
     </>
   );
 }

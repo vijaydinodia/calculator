@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "./calculatar.css";
+import "./calculator.css";
 
-function Calculater() {
+function Calculator() {
   const [data, setData] = useState("");
   const getValue = (event) => {
     setData(data.concat(event.target.value));
@@ -32,7 +32,7 @@ function Calculater() {
         <button onClick={getValue} value={")"}>
           )
         </button>
-        <button onClick={getValue}  value={"%"}>
+        <button onClick={getValue} value={"%"}>
           %
         </button>
         <button onClick={allClear} value={"AC"}>
@@ -95,4 +95,4 @@ function Calculater() {
   );
 }
 
-export default Calculater;
+export default Calculator;
